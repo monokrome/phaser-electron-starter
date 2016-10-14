@@ -1,11 +1,16 @@
 {
+  "author": "Bailey Stoner <monokrome@monokro.me>",
+  "description": "Starter project for electron + phazer projects.",
+  "license": "MIT",
+  "main": "src/main.js",
   "name": "phazer-electron-starter",
   "version": "0.1.0",
-  "description": "Starter project for electron + phazer projects.",
-  "main": "main.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bailey Stoner <monokrome@monokro.me>",
-  "license": "MIT"
+
+  "dependencies": {
+    "electron-prebuilt": "^1.4.3"
+  }
 }
