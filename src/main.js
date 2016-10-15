@@ -32,6 +32,8 @@ class ORBISDesktop {
       useContentSize: true,
     });
 
+    this.window.setMenu(null);
+
     if (typeof process.env.ELECTRON_DEBUG !== 'undefined')
       this.window.webContents.openDevTools('detached');
 
