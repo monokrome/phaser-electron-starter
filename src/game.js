@@ -1,1 +1,1 @@
-const game = new Phaser.Game(800, 699, Phaser.AUTO, '');
+const game = new Phaser.Game(800, 600, Phaser.AUTO, '');

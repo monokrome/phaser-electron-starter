@@ -26,8 +26,10 @@ class ORBISDesktop {
 
   start() {
     this.window = new BrowserWindow({
-      width: 800,
-      height: 600
+      frame: false,
+      fullscreen: false,
+      resizable: false,
+      useContentSize: true,
     });
 
     if (typeof process.env.ELECTRON_DEBUG !== 'undefined')
