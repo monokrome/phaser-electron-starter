@@ -33,7 +33,7 @@ class ORBISDesktop {
     });
 
     if (typeof process.env.ELECTRON_DEBUG !== 'undefined')
-      this.window.webContents.openDevTools();
+      this.window.webContents.openDevTools('detached');
 
     this.window.loadURL(`file://${__dirname}/../index.html`);
     this.window.on('closed', this.onWindowClosed.bind(this));
