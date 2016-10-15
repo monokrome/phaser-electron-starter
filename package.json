@@ -7,7 +7,7 @@
   "version": "0.1.0",
 
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
+    "start": "ELECTRON_DEBUG=1 ./node_modules/.bin/electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
