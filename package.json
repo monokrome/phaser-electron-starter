@@ -1,9 +1,9 @@
 {
   "author": "Bailey Stoner <monokrome@monokro.me>",
-  "description": "Starter project for electron + phazer projects.",
+  "description": "Starter project for electron + phaser projects.",
   "license": "MIT",
   "main": "src/main.js",
-  "name": "phazer-electron-starter",
+  "name": "phaser-electron-starter",
   "version": "0.1.0",
 
   "scripts": {
